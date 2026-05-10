@@ -1,4 +1,4 @@
-'''#concept of write(w)
+#concept of write(w)
 file = open("data.txt", "w")
 file.write("Hello, file handling!")
 file.close()
@@ -11,7 +11,7 @@ file = open("data.txt", "r")
 content = file.read()
 print(content)
 
-file.close()'''''
+file.close()
 
 #append(add without del old data):
 file = open("data.txt", "a")
